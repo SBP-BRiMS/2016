@@ -100,6 +100,8 @@
 	padding: 28px 20px 18px 20px;
 	top: 175px;
 	font-family: 'Economica', Arial, sans-serif !important;
+	font-size: 24px;
+	font-color: #fff;
 	font-weight: 500;
 	position: absolute;
 	z-index: 5;
