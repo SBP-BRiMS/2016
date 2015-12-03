@@ -95,7 +95,7 @@
 	position: absolute;
 	z-index: 5;
 }
-.da-slide table{
+.da-slide table tr{
 	width: 60%;
 	padding: 28px 20px 18px 20px;
 	top: 175px;
