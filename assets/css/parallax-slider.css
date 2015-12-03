@@ -107,6 +107,14 @@
 	position: absolute;
 	z-index: 5;
 }
+.da-slide td{
+	font-family: 'Economica', Arial, sans-serif !important;
+	font-size: 24px;
+	font-color: #fff;
+	font-weight: 500;
+	position: absolute;
+	z-index: 5;
+}
 .da-slide .da-img{
 	width: 100%;
 	bottom: 0px;
