@@ -135,11 +135,11 @@
                     <table>
                     	<tr>
                     	    <td style="padding-right: 1em"><strong><a href="https://eng.utoledo.edu/eecs/people/xu_profile.html">Kevin S. Xu</a></strong></td>
-                    	    <td><strong>TBA</strong></td>
+                    	    <td><strong><a href="http://cseweb.ucsd.edu/~jfoulds/">James R. Foulds</a></strong></td>
                     	</tr>
                     	<tr>
                     	    <td style="padding-right: 1em"><small>University of Toledo</small></td>
-                    	    <td><small>University of Toledo</small></td>
+                    	    <td><small>University of California, San Diego</small></td>
                     	</tr>
                     	<tr>
                     	    <td style="padding-right: 1em"><small><a href=""></a></small></td>
@@ -151,17 +151,18 @@
 
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <p>
-                    A social network is a structure of actors or vertices, representing people or groups of people, and ties or 
-                    edges, representing relations between actors. Due in part to the ubiquity of social network data today, interest 
-                    in social network analysis has spread beyond its traditional home in the social sciences to many other 
-                    disciplines including physics, computer science, statistics, and engineering. A topic of significant interest 
-                    in social network analysis is the creation of statistical models for social network data. Many of these models 
-                    share a common underlying structure: edges are generated with probability conditional on a set of latent or 
-                    hidden attributes for vertices. Differences between models generally stem from different philosophical 
-                    choices about how to learn from data or different empirically-motivated goals.
+                    Due in part to the ubiquity of social network data today, interest in social network analysis has spread beyond its 
+                    traditional home in the social sciences to many other disciplines including physics, computer science, statistics, 
+                    and engineering. A topic of significant interest in social network analysis is the creation of statistical models 
+                    for social network data. Many of these models are generative, which allows one to simulate random networks from a 
+                    particular model. Additionally many models share a common structure: each vertex is assigned a set of latent or 
+                    hidden attributes, and edges between vertices are generated with probability conditional on the hidden attributes of 
+                    the vertices. These latent variables, which are automatically inferred from the network, can be valuable for 
+                    understanding network structure with respect to sociological principles, and for making predictions about the network’s 
+                    current and future state.
                     </p>
                     <p>
-                    In this tutorial, we cover three main classes of <em>generative models</em> for social network data, under which many
+                    In this tutorial, we cover four main classes of <em>generative models</em> for social network data, under which many
                     of the commonly used statistical network models fall:
                     <ul>
                     	<li><em>Latent space models</em>, which generally assume latent continuous attributes for vertices where the
@@ -172,16 +173,18 @@
                     	<li><em>Latent feature models</em>, which allow vertices to have arbitrarily many unique (typically binary)
                     	features, where the probability of an edge between two vertices is given by a weighted sum of the 
                     	elements of their feature vectors.</li>
+                    	<li><em>Mixed membership models</em>, in which each vertex has partial membership in their latent classes.</li>
                     </ul>
                     </p>
                     <p>
                     We discuss some of the challenges when it comes to applying these types of generative models on social
                     network data, including
                     <ul>
-                    	<li>Interpretability of model parameters, model structure, and their relationship to social network structure.</li>
                     	<li>Optimization methods to fit these generative models, which involves estimating the latent attributes 
                     	of the vertices, in an optimal or near-optimal manner.</li>
-                    	<li>Model selection and model checking to validate a particular fit to a social network model.</li>
+                    	<li>Simulation approaches for Bayesian inference in these models using Markov chain Monte Carlo.</li>
+                    	<li>Model selection and verification to validate a particular fit to a social network model.</li>
+                    	<li>Interpretation of model parameters and their relationship to social network structure.</li>
                     </ul>
                     </p>
                     <p>
@@ -207,6 +210,14 @@
                    with applications to network science and human dynamics.
                     </p>
                     <p>
+                    James (a.k.a. Jimmy) Foulds is a postdoctoral scholar at the University of California, San Diego. His 
+                    research interests are in both applied and foundational machine learning, focusing on probabilistic latent 
+                    variable models and the inference algorithms to learn them from social networks and text data. His work aims 
+                    to promote the practice of latent variable modeling for applied research in disciplines such as computational 
+                    social science and the digital humanities. He earned his PhD in computer science at the University of 
+                    California, Irvine, and was a postdoctoral scholar at the University of California, Santa Cruz. His master's 
+                    and bachelor's degrees were earned with first class honours at the University of Waikato, New Zealand, 
+                    where he also contributed to the Weka data mining system.
  		    </p>
                </div><!-- /row -->
         </div><!-- /container -->
