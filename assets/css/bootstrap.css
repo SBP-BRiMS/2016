@@ -1594,7 +1594,8 @@ table th[class*="col-"] {
 .table > thead > tr.noborder > th,
 .table > tbody > tr.noborder > th,
 .table > tfoot > tr.noborder > th {
-  border-style: none;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
 }
 @media (max-width: 767px) {
   .table-responsive {
